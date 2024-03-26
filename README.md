@@ -1,5 +1,8 @@
 # third-description-in-product-page-in-woocommerce
 third description in product page in woocommerce
+
+
+
 add_filter( 'woocommerce_product_export_column_headers', 'export_third_desc_column' );
 function export_third_desc_column( $headers ) {
     $headers['third_desc'] = 'Third Description';
